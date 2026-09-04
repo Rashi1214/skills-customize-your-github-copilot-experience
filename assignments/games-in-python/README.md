@@ -32,9 +32,16 @@ Create the main game loop that displays the player's progress, accepts guesses, 
 Completed program should:
 
 - Display the secret word as underscores for letters that have not been guessed.
-- Accept a letter guess from the player.
+- Accept a single-letter guess from the player.
 - Track correct and incorrect guesses.
 - Prevent a repeated guess from being counted more than once.
+
+Example progress display for the word `python` after guessing `p` and `o`:
+
+```text
+p _ _ _ _ _
+Incorrect guesses: o
+```
 
 ### 🛠️ End the Game
 
