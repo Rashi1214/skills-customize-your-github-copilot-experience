@@ -1,19 +1,51 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a text-based Hangman game in Python to practice string manipulation, loops, conditionals, user input, and random selection.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Set Up the Game
 
-## ✅ Must Have's
+#### Description
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+Use the provided list of words to randomly select a secret word and initialize the game state.
+
+#### Requirements
+
+Completed program should:
+
+- Randomly select one word from the provided list.
+- Create a collection to track the letters guessed by the player.
+- Set a maximum number of incorrect guesses.
+
+### 🛠️ Build the Game Loop
+
+#### Description
+
+Create the main game loop that displays the player's progress, accepts guesses, and updates the game state.
+
+#### Requirements
+
+Completed program should:
+
+- Display the secret word as underscores for letters that have not been guessed.
+- Accept a letter guess from the player.
+- Track correct and incorrect guesses.
+- Prevent a repeated guess from being counted more than once.
+
+### 🛠️ End the Game
+
+#### Description
+
+End the game when the player reveals the entire word or reaches the maximum number of incorrect guesses.
+
+#### Requirements
+
+Completed program should:
+
+- Display a winning message when the player guesses the word.
+- Display a losing message and reveal the secret word when the player runs out of guesses.
+- Clearly show the number of incorrect guesses remaining while the game is in progress.
